@@ -1,0 +1,280 @@
+
+.yvavili{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    justify-content: center!important;
+    background-color: rgba(255, 239, 213, 0.239);
+}
+.author{
+    width: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgb(195, 74, 199);
+}
+/*cherry flower*/
+
+:root{
+    --pink4: #FED4E0;
+    --purple: #FF648C;
+    --yellow: #F29F05;
+    --yellow2: #f2ee05;
+    --greens1: #216000;
+    --greens2: #608803;
+}
+.branch{
+    position: relative;
+    width: 250px;
+    height: 5px;
+    top: 25px;
+    z-index: -3;
+    background-color: brown;
+    border-radius: 50px;
+    transform: rotate(-28deg);
+}
+.cherry{
+    margin: auto;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.purceli div{
+    position: absolute;
+    background-color: var(--pink4);
+    width: 60px;
+    height: 60px;
+    top: 40px;
+    border-radius: 50px;
+    transition: all 0.5s ease-out;
+    animation: bloom 10s ease-in-out infinite;
+}
+.purceli div:nth-child(1){
+    top: 39px;
+    left: 70px;
+    transform: rotateZ(45deg);
+}
+.purceli div:nth-child(2){
+    top: 74px;
+    left: 25px;
+    transform: rotateZ(-35deg);
+}
+.purceli div:nth-child(3){
+    top: 74px;
+    left: 115px;
+    transform: rotateZ(125deg);
+}
+.purceli div:nth-child(4){
+    top: 123px;
+    left: 45px;
+    transform: rotateZ(-105deg);
+}
+.purceli div:nth-child(5){
+    top: 123px;
+    left: 95px;
+    transform: rotateZ(195deg);
+}
+.shesartavi{
+    position: absolute;
+    top: 88px;
+    left: 73px;
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    background-color: var(--purple);
+    opacity: 0.3;
+    animation: bloom1 10s ease infinite;
+}
+.yviteli{
+    position: absolute;
+    top: 95px;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: var(--yellow);
+    z-index: -2;
+}
+.yvitelip div{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 105px;
+    border-radius: 100px;
+    background-color: var(--yellow2);
+    z-index: 2;
+}
+.yvitelip div:nth-child(1){
+    left: 88px;
+}
+.yvitelip div:nth-child(2){
+    left: 105px;
+}
+.yvitelip div:nth-child(3){
+    top: 120px;
+    left: 96px;
+}
+
+
+@keyframes bloom{
+    50%{
+        transform: scale(1.6)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+@keyframes bloom1{
+    50%{
+        transform: scale(1.3)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+.cherry2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 85%;
+}
+.purceli2 div{
+    position: absolute;
+    background-color: var(--pink4);
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    border-radius: 50px;
+    transition: all 0.5s ease-out;
+    animation: bloom2 10s ease-in-out infinite;
+}
+.purceli2 div:nth-child(1){
+    top: 19px;
+    left: 35px;
+    transform: rotateZ(45deg);
+}
+.purceli2 div:nth-child(2){
+    top: 37px;
+    left: 12px;
+    transform: rotateZ(-35deg);
+}
+.purceli2 div:nth-child(3){
+    top: 37px;
+    left: 57px;
+    transform: rotateZ(125deg);
+}
+.purceli2 div:nth-child(4){
+    top: 61px;
+    left: 22px;
+    transform: rotateZ(-105deg);
+}
+.purceli2 div:nth-child(5){
+    top: 61px;
+    left: 47px;
+    transform: rotateZ(195deg);
+}
+.shesartavi2{
+    position: absolute;
+    top: 44px;
+    left: 36px;
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+    background-color: var(--purple);
+    opacity: 0.3;
+    animation: bloom3 10s ease infinite;
+    z-index: 1;
+}
+.yviteli2{
+    position: absolute;
+    top: 47px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: var(--yellow);
+    z-index: -2;
+}
+.yvitelip2 div{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 60px;
+    border-radius: 100px;
+    background-color: var(--yellow2);
+    z-index: 2;
+}
+.yvitelip2 div:nth-child(1){
+    left: 43px;
+}
+.yvitelip2 div:nth-child(2){
+    left: 53px;
+}
+.yvitelip2 div:nth-child(3){
+    top: 50px;
+    left: 48px;
+}
+.leaf div{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 60px;
+    border-radius:  0 100px;
+    background-color: var(--greens1);
+    z-index: -1;
+}
+.leaf div:nth-child(1){
+    top: 90px;
+    left: 195px;
+    background-color: var(--greens2);
+    transform: rotate(-5deg);
+    animation: leaves 10s ease-in infinite;
+}
+.leaf div:nth-child(2){
+    top: 100px;
+    left: 180px;
+    transform: rotate(35deg);
+}
+.leaf div:nth-child(3){
+    width: 65px;
+    height: 65px;
+    border-radius:  0 80px;
+    top: 120px;
+    left: -15px;
+    transform: rotate(-35deg);
+}
+.leaf div:nth-child(4){
+    width: 65px;
+    height: 65px;
+    border-radius:  0 80px;
+    background-color: var(--greens2);
+    top: 80px;
+    left: -15px;
+    transform: rotate(-5deg);
+    animation: leaves 10s ease-in infinite;
+}
+
+@keyframes bloom2{
+    50%{
+        transform: scale(1.8)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+@keyframes bloom3{
+    50%{
+        transform: scale(1.4)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+@keyframes leaves {
+    50%{
+        transform: scale(1.4);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
